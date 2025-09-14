@@ -1,4 +1,4 @@
-# Live Sub Count — README
+# Live Sub Count
 
 A small, lightweight **YouTube live subscriber goal overlay** (HTML/CSS/JS). Use it as a browser source in OBS or open in any browser. It shows a subscriber goal bar, current count, and a filling animation. The bundle includes demo assets so it works instantly without configuring an API.
 
@@ -150,3 +150,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+
