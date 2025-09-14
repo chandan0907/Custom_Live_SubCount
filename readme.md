@@ -125,10 +125,28 @@ In `style.css` find the `.icon` rule and replace or add:
 
 ---
 
-If you want, I can:
+## License & Copyright
 
-* generate a `.gitignore` and `config.example.js` showing how to keep your key out of GitHub,
-* produce a short `README.md` tailored for GitHub with badges,
-* or convert this to a one-file HTML template that reads a key from `config.js`.
+This project is licensed under the **MIT License** — you are free to use, modify, and distribute it with attribution.
 
-Tell me which you'd like next.
+```
+Copyright (c) 2025 Live Sub Count Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
