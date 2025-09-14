@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YouTube Live Subscriber Goal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrapper">
+    <!-- Title (CSS expects .title) -->
+    <h1 class="title">Subscriber Goal</h1>
+
+    <!-- Card: icon left + bar right -->
+    <div class="card" role="region" aria-label="Subscriber Goal">
+      <!-- circular icon (CSS expects .icon-wrap) -->
+      <div class="icon-wrap" aria-hidden="true">
+        <!-- image fallback: loads PNG if present, otherwise fallback SVG -->
+        <img src="Follow_Icon.png" alt="icon"
+             onerror="this.outerHTML = '<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; width=&quot;160&quot; height=&quot;160&quot; viewBox=&quot;0 0 24 24&quot; fill=&quot;white&quot;><path d=&quot;M12 12c2.67 0 8 1.34 8 4v2H4v-2c0-2.66 5.33-4 8-4zm0-2a4 4 0 100-8 4 4 0 000 8z&quot;/></svg>';">
+      </div>
+
+      <!-- right side (bar) -->
+      <div class="right">
+        <div class="bar" aria-hidden="false">
+          <!-- Use .bar-inner for the colored fill; JS will animate transform or width -->
+          <div class="bar-inner" id="barInner">
+            <!-- optional shimmer element -->
+            <div class="shine"></div>
+          </div>
+
+          <!-- centered text -->
+          <div class="bar-text" id="barText">
+            <span id="current">0</span>
+            <span> / </span>
+            <span id="goalDisplay">1,000</span>
+            <span class="percent" id="percentText"> (0%)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
